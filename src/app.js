@@ -3,6 +3,7 @@ const quant = document.getElementById("input2");
 const currprice = document.getElementById("input3"); 
 const btn = document.getElementById("btn");
 const opt = document.getElementById("output");
+const color = document.getElementById("content");
 
 function myfn(){
     var input1 = Number(price.value);
@@ -14,6 +15,7 @@ function myfn(){
 
 function calculateProfitAndLoss(price, currprice,quant){
     if(price>currprice){
+        color.classList.add("bg-red-400");
         var loss= (price-currprice)*100;
         var lossPer = (loss/price)*100;
         opt.innerHTML=`Hey, your loss is ${loss} and your loss Percentage is ${lossPer}%`;
