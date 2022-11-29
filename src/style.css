@@ -12,4 +12,53 @@ body{
     background: linear-gradient(#4b7fdf, #557293);
     background-attachment: fixed;
     color: white;
+    box-sizing: border-box;
+}
+
+#container{
+  width: 500px;
+  height: 350px;
+margin: auto;
+padding: 3rem;
+background-color:rgb(12 74 110);
+border-radius: 0.5rem;
+margin-top: 3rem;
+color:rgb(107 114 128);
+}
+
+.divs{
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+input{
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 2px #d1d5db solid;
+  padding:0.5rem;
+}
+
+input:focus{
+  outline: rgb(99 102 241);;
+}
+
+h1{
+  text-align: center;
+  font-size:larger;
+  font-weight: 300;
+  padding: 2rem;
+}
+
+#btn{
+  color: white;
+  background-color:rgb(99 102 241);
+  padding: 1rem;
+  width: 500px;
+border-radius: 0.5rem;
+border: none;
+font-size: large;
+}
+
+#btn:hover{
+  background-color: rgb(79 70 229);
 }
