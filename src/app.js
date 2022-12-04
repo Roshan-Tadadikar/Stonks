@@ -6,6 +6,7 @@ const opt = document.getElementById("output");
 const color = document.getElementById("container");
 
 function myfn(){
+    color.style.backgroundColor="";
     var input1 = Number(price.value);
     var input2 = Number(quant.value);
     var input3 = Number(currprice.value);
